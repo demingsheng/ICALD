@@ -1,6 +1,6 @@
 # Learning Survival Distributions with Individually Calibrated Asymmetric Laplace Distribution (ICLR 2026)
 
-This repository contains the official implementation of our ICML 2025 paper:
+This repository contains the official implementation of our ICLR 2026 paper:
 
 **Learning Survival Distributions with Individually Calibrated Asymmetric Laplace Distribution** 📄
 
