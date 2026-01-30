@@ -1,6 +1,21 @@
-## Learning Survival Distributions with Individually Calibrated Asymmetric Laplace Distribution
+# Learning Survival Distributions with Individually Calibrated Asymmetric Laplace Distribution (ICLR 2026)
 
-## **Directory Structure**
+This repository contains the official implementation of our ICML 2025 paper:
+
+**Learning Survival Distributions with Individually Calibrated Asymmetric Laplace Distribution** 📄
+
+## 🔍 Overview
+Survival analysis plays a critical role in modeling time-to-event outcomes across various domains. 
+Although recent advances have focused on improving *predictive accuracy* and *concordance*, fine-grained *calibration* remains comparatively underexplored. 
+In this paper, we propose a survival modeling framework based on the Individually Calibrated Asymmetric Laplace Distribution (ICALD), which unifies *parametric* and *nonparametric* approaches based on the ALD.
+We begin by revisiting the probabilistic foundation of the widely used *pinball* loss in *quantile regression* and its reparameterization as the *asymmetry form* of the ALD. 
+This reparameterization enables a principled shift to *parametric* modeling while preserving the flexibility of *nonparametric* methods.
+Furthermore, we show theoretically that ICALD, with the *quantile regression* loss is probably approximately individually calibrated.
+Then we design an extended ICALD framework that supports both *pre-calibration* and *post-calibration* strategies. 
+Extensive experiments on 14 synthetic and 7 real-world datasets demonstrate that our method achieves competitive performance in terms of *predictive accuracy*, *concordance*, and *calibration*, while outperforming 12 existing baselines including recent *pre-calibration* and *post-calibration* methods.
+
+
+## 🗂️ Directory Structure
 ```
 datasets/
 ├── breast_msk_2018_clinical_data.tsv   
@@ -52,3 +67,6 @@ python script.py
 
 ### **3. Visualizations**
 Figures and plots generated during analysis will be saved in the `figures/` folder.
+
+
+📌 Note: This paper has been accepted to ICLR 2026. The official proceedings citation will be updated once available.
