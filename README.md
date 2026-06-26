@@ -68,5 +68,15 @@ python script.py
 ### **3. Visualizations**
 Figures and plots generated during analysis will be saved in the `figures/` folder.
 
+---
+## 📎 Citation
 
-📌 Note: This paper has been accepted to ICLR 2026. The official proceedings citation will be updated once available.
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{shenglearning,
+  title={Learning Survival Distributions with Individually Calibrated Asymmetric Laplace Distribution},
+  author={Sheng, Deming and Henao, Ricardo},
+  booktitle={The Fourteenth International Conference on Learning Representations}
+}
+ ```
